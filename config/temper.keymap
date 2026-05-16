@@ -10,18 +10,17 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define GAME 1
-#define NUM 2
-#define NAV 3
-#define FUN 4
+#define NUM_NAV 1
+#define FUN 2
+#define GAME 3
 
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
+            if-layers = <NUM_NAV FUN>;
+            then-layer = <GAME>;
         };
     };
 

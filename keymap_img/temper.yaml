@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: temper}
 layers:
-  default:
+  default_layer:
   - - Q
     - W
     - F
@@ -23,12 +23,12 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
   - - ⌘
-    - fun
+    - fun_layer
     - SPACE
     - {t: ⇧, s: ⇪}
-    - num_nav
+    - num_nav_layer
     - ⌃
-  num_nav:
+  num_nav_layer:
   - - PG UP
     - HOME
     - UP ARROW
@@ -65,7 +65,7 @@ layers:
     - '0'
     - {type: held}
     - {t: ▽, type: trans}
-  fun:
+  fun_layer:
   - - PRINTSCREEN
     - MUTE
     - VOL DN
@@ -102,7 +102,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  game:
+  game_layer:
   - - ↹
     - Q
     - W
@@ -138,77 +138,77 @@ layers:
     - SPACE
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: default, h: toggle}
+    - {t: default_layer, h: toggle}
 combos:
 - p: [0, 10]
   k: '~'
-  l: [default]
+  l: [default_layer]
 - p: [11, 1]
   k: '@'
-  l: [default]
+  l: [default_layer]
 - p: [12, 2]
   k: '#'
-  l: [default]
+  l: [default_layer]
 - p: [13, 3]
   k: $
-  l: [default]
+  l: [default_layer]
 - p: [10, 20]
   k: '%'
-  l: [default]
+  l: [default_layer]
 - p: [11, 21]
   k: ^
-  l: [default]
+  l: [default_layer]
 - p: [22, 12]
   k: {t: '&', s: '|'}
-  l: [default]
+  l: [default_layer]
 - p: [13, 23]
   k: '*'
-  l: [default]
+  l: [default_layer]
 - p: [14, 4]
   k: '['
-  l: [default]
+  l: [default_layer]
 - p: [24, 14]
   k: (
-  l: [default]
+  l: [default_layer]
 - p: [15, 5]
   k: ']'
-  l: [default]
+  l: [default_layer]
 - p: [25, 15]
   k: )
-  l: [default]
+  l: [default_layer]
 - p: [19, 9]
   k: {t: '`', s: '~'}
-  l: [default]
+  l: [default_layer]
 - p: [26, 16]
   k: <
-  l: [default]
+  l: [default_layer]
 - p: [28, 18]
   k: '>'
-  l: [default]
+  l: [default_layer]
 - p: [29, 19]
   k: {t: /, s: \}
-  l: [default]
+  l: [default_layer]
 - p: [16, 6]
   k: {t: '-', s: _}
-  l: [default]
+  l: [default_layer]
 - p: [17, 7]
   k: _
-  l: [default]
+  l: [default_layer]
 - p: [27, 17]
   k: {t: '=', s: +}
-  l: [default]
+  l: [default_layer]
 - p: [18, 8]
   k: +
-  l: [default]
+  l: [default_layer]
 - p: [20, 21]
   k: ⎋
-  l: [default]
+  l: [default_layer]
 - p: [21, 22]
   k: ↹
-  l: [default]
+  l: [default_layer]
 - p: [26, 27]
   k: ENTER
-  l: [default]
+  l: [default_layer]
 - p: [28, 27]
   k: BACKSPACE
-  l: [default]
+  l: [default_layer]

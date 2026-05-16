@@ -254,10 +254,10 @@
 
         num_nav_layer {
             bindings = <
-  &kp PG_UP  &kp HOME  &kp UP_ARROW    &kp END    &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
-  &kp PG_DN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
-  &trans     &trans    &trans          &trans     &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
-                       &trans          &trans     &trans    &kp N0  &trans  &trans
+  &kp PG_UP         &kp HOME      &kp UP_ARROW      &kp END         &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
+  &kp PG_DN         &kp LEFT      &kp DOWN_ARROW    &kp RIGHT       &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
+  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_COMMAND  &sk LEFT_SHIFT  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
+                                  &trans            &trans          &trans    &kp N0  &trans  &trans
             >;
         };
 

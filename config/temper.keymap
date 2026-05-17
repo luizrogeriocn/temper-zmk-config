@@ -269,7 +269,7 @@
         default_layer {
             bindings = <
   &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J        &kp L  &kp U             &kp Y       &kp APOS
-  &hml LGUI A  &hml LALT R  &hml LSHFT S  &hml LCTRL T  &kp G        &kp M        &hmr RCTRL N  &hmr RSHFT E  &hmr RALT I  &hmr RGUI O
+  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHFT T  &kp G        &kp M        &hmr LSHFT N  &hmr LGUI E  &hmr LALT I  &hmr LCTRL O
   &kp Z  &kp X  &kp C     &kp D  &kp V        &kp K        &kp H  &comma_semi       &dot_colon  &qmrk_excl
                 &kp LGUI  &mo 2  &kp SPACE    &smart_shft  &mo 1  &kp LEFT_CONTROL
             >;

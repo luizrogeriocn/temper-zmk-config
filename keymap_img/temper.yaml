@@ -11,7 +11,16 @@ layers:
     - U
     - Y
     - {t: '''', s: '"'}
-  - [A, R, S, T, G, M, N, E, I, O]
+  - - {t: A, h: ⌘}
+    - {t: R, h: ⎇}
+    - {t: S, h: ⇧}
+    - {t: T, h: ⌃}
+    - G
+    - M
+    - {t: N, h: ⌃}
+    - {t: E, h: ⇧}
+    - {t: I, h: ⎇}
+    - {t: O, h: ⌘}
   - - Z
     - X
     - C
@@ -48,11 +57,11 @@ layers:
     - '4'
     - '5'
     - '6'
+    - '0'
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: ⌃, h: sticky}
-    - {t: ⎇, h: sticky}
-    - {t: LEFT COMMAND, h: sticky}
-    - {t: LEFT SHIFT, h: sticky}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '1'
@@ -62,7 +71,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '0'
+    - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
   fun_layer:

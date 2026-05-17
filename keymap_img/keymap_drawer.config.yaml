@@ -68,7 +68,10 @@ draw_config:
 
     text.hold {
         text-anchor: middle;
-        dominant-baseline: auto;
+        dominant-baseline: text-after-edge;
+        font-size: 12px;
+        font-weight: 600;
+        fill: #57606a;
     }
 
     text.shifted {
@@ -215,8 +218,6 @@ parse_config:
     C_NEXT: ⏭
     C_PP: ⏯
     C_PREV: ⏮
-    C_VOL_DN: 🔉
-    C_VOL_UP: 🔊
     DLLR: $
     DOLLAR: $
     DOT: {t: '.', s: '>'}

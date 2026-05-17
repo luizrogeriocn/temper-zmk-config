@@ -257,7 +257,7 @@
         };
 
         backspace {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&bspc_del>;
             key-positions = <28 27>;
             layers = <0>;
         };

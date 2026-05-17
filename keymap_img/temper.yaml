@@ -40,7 +40,7 @@ layers:
   num_nav_layer:
   - - PG UP
     - HOME
-    - UP ARROW
+    - ↑
     - END
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -50,7 +50,7 @@ layers:
     - {t: ▽, type: trans}
   - - PG DN
     - ←
-    - DOWN ARROW
+    - ↓
     - →
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -77,8 +77,8 @@ layers:
   fun_layer:
   - - PRINTSCREEN
     - MUTE
-    - VOL DN
-    - VOL UP
+    - 🔉
+    - 🔊
     - OUT USB
     - {t: ▽, type: trans}
     - F9
@@ -96,9 +96,9 @@ layers:
     - F7
     - F8
   - - BT CLR
-    - PREV
-    - PP
-    - NEXT
+    - ⏮
+    - ⏯
+    - ⏭
     - OUT BLE
     - {t: ▽, type: trans}
     - F1
@@ -216,8 +216,8 @@ combos:
   k: ↹
   l: [default_layer]
 - p: [26, 27]
-  k: ENTER
+  k: ⏎
   l: [default_layer]
 - p: [28, 27]
-  k: BACKSPACE
+  k: ⌫
   l: [default_layer]

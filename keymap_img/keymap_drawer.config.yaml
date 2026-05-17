@@ -206,17 +206,25 @@ parse_config:
     ASTRK: '*'
     AT: '@'
     AT_SIGN: '@'
+    BACKSPACE: ⌫
     BACKSLASH: {t: '\', s: '|'}
     BSLH: \
     CARET: ^
     COLON: ':'
     COMMA: {t: ',', s: '<'}
+    C_NEXT: ⏭
+    C_PP: ⏯
+    C_PREV: ⏮
+    C_VOL_DN: 🔉
+    C_VOL_UP: 🔊
     DLLR: $
     DOLLAR: $
     DOT: {t: '.', s: '>'}
     DOUBLE_QUOTES: '"'
     DQT: '"'
     EQUAL: {t: '=', s: '+'}
+    DOWN_ARROW: ↓
+    ENTER: ⏎
     EXCL: '!'
     EXCLAMATION: '!'
     FSLH: /
@@ -238,6 +246,7 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     PERCENT: '%'
+    UP_ARROW: ↑
     PERIOD: .
     PIPE: '|'
     PIPE2: '|'

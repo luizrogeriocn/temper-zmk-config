@@ -77,8 +77,8 @@ layers:
   fun_layer:
   - - PRINTSCREEN
     - MUTE
-    - 🔉
-    - 🔊
+    - VOL DN
+    - VOL UP
     - OUT USB
     - {t: ▽, type: trans}
     - F9
@@ -219,5 +219,5 @@ combos:
   k: ⏎
   l: [default_layer]
 - p: [28, 27]
-  k: ⌫
+  k: {t: ⌫, s: ⌦}
   l: [default_layer]

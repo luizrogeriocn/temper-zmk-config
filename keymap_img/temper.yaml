@@ -32,7 +32,7 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
   - - fun_layer
-    - SPACE
+    - ⎵
     - ⌘
     - {t: ⇧, s: ⇪}
     - num_nav_layer
@@ -144,7 +144,7 @@ layers:
     - {t: ▽, type: trans}
   - - ESC
     - {t: ▽, type: trans}
-    - SPACE
+    - ⎵
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: default_layer, h: toggle}
@@ -171,7 +171,7 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
   - - fun_layer
-    - SPACE
+    - ⎵
     - ⌘
     - {t: ⇧, s: ⇪}
     - num_nav_layer

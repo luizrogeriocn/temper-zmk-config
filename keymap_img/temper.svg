@@ -211,16 +211,18 @@ path {
 </g>
 <g transform="translate(188, 228)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌘</text>
-</g>
-<g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <a href="#fun_layer">
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">fun_layer</tspan></text>
 </a></g>
+<g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">SPACE</text>
+</g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
-<text x="0" y="0" class="key tap">SPACE</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">COMMAND</tspan>
+</text>
 </g>
 <g transform="translate(463, 246) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
@@ -521,9 +523,11 @@ path {
 <tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
 </text>
 </g>
-<g transform="translate(520, 58)" class="key trans keypos-5">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(520, 58)" class="key keypos-5">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<a href="#game_layer">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 70%">game_layer</tspan></text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(580, 50)" class="key keypos-6">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -630,12 +634,12 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F4</text>
 </g>
-<g transform="translate(188, 228)" class="key trans keypos-30">
+<g transform="translate(188, 228)" class="key held keypos-30">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
+</g>
+<g transform="translate(254, 236) rotate(15.0)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g transform="translate(254, 236) rotate(15.0)" class="key held keypos-31">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key trans keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key trans"/>
@@ -782,8 +786,9 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
 </g>
-<g transform="translate(254, 236) rotate(15.0)" class="key held keypos-31">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
+<g transform="translate(254, 236) rotate(15.0)" class="key trans keypos-31">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
@@ -793,8 +798,9 @@ path {
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(533, 235) rotate(-15.0)" class="key held keypos-34">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
+<g transform="translate(533, 235) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(599, 228)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>

@@ -31,9 +31,9 @@ layers:
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
-  - - ⌘
-    - fun_layer
+  - - fun_layer
     - SPACE
+    - LEFT COMMAND
     - {t: ⇧, s: ⇪}
     - num_nav_layer
     - ⌃
@@ -80,7 +80,7 @@ layers:
     - VOL DN
     - VOL UP
     - OUT USB
-    - {t: ▽, type: trans}
+    - {t: game_layer, h: toggle}
     - F9
     - F10
     - F11
@@ -105,8 +105,8 @@ layers:
     - F2
     - F3
     - F4
-  - - {t: ▽, type: trans}
-    - {type: held}
+  - - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -143,10 +143,10 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - ESC
-    - {type: held}
+    - {t: ▽, type: trans}
     - SPACE
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: default_layer, h: toggle}
 combos:
 - p: [0, 10]

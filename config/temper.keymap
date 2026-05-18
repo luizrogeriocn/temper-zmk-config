@@ -121,145 +121,145 @@
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <0 10>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <11 1>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <12 2>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <13 3>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <10 20>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         caret {
             bindings = <&kp CARET>;
             key-positions = <11 21>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         ampersand {
             bindings = <&amps_morph>;
             key-positions = <22 12>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <13 23>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         Lbracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <14 4>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         Lparen {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <24 14>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         Rbracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <15 5>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         Rparen {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <25 15>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <19 9>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <26 16>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <28 18>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         slash_morph {
             bindings = <&slh_morph>;
             key-positions = <29 19>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <16 6>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <17 7>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <27 17>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <18 8>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <20 21>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <21 22>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <26 27>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         backspace {
             bindings = <&bspc_del>;
             key-positions = <28 27>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
     };
 

@@ -237,6 +237,7 @@ parse_config:
     LBRC: '{'
     LEFT_BRACE: '{'
     LEFT_BRACKET: '['
+    LEFT_COMMAND: ⌘
     LEFT_PARENTHESIS: (
     LESS_THAN: <
     LPAR: (

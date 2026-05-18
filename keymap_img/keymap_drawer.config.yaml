@@ -267,6 +267,7 @@ parse_config:
     SEMICOLON:  {t: ';', s: ':'}
     SINGLE_QUOTE:  {t: '''', s: '"'}
     SLASH: {t: '/', s: '?'}
+    SPACE: ⎵
     SQT: ''''
     STAR: '*'
     TILDE: '~'

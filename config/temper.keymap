@@ -13,6 +13,7 @@
 #define NUM_NAV 1
 #define FUN 2
 #define GAME 3
+#define QWERTY 4
 #define COMBO_TERM 30
 #define TAPPING_TERM 280
 #define QUICK_TAP_TERM 175
@@ -120,145 +121,145 @@
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <0 10>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <11 1>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <12 2>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <13 3>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <10 20>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         caret {
             bindings = <&kp CARET>;
             key-positions = <11 21>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         ampersand {
             bindings = <&amps_morph>;
             key-positions = <22 12>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <13 23>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         Lbracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <14 4>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         Lparen {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <24 14>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         Rbracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <15 5>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         Rparen {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <25 15>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <19 9>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <26 16>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <28 18>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         slash_morph {
             bindings = <&slh_morph>;
             key-positions = <29 19>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <16 6>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <17 7>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <27 17>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <18 8>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <20 21>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <21 22>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <26 27>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
 
         backspace {
             bindings = <&bspc_del>;
             key-positions = <28 27>;
-            layers = <0>;
+            layers = <DEFAULT QWERTY>;
         };
     };
 
@@ -270,6 +271,15 @@
   &kp Q         &kp W        &kp F        &kp P         &kp B               &kp J        &kp L         &kp U             &kp Y        &kp APOS
   &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHFT T  &kp G               &kp M        &hmr LSHFT N  &hmr LGUI E       &hmr LALT I  &hmr LCTRL O
   &kp Z         &kp X        &kp C        &kp D         &kp V               &kp K        &kp H         &comma_semi       &dot_colon   &qmrk_excl
+                             &mo 2        &kp SPACE     &kp LEFT_COMMAND    &smart_shft  &mo 1         &kp LEFT_CONTROL
+            >;
+        };
+
+        qwerty_layer {
+            bindings = <
+  &kp Q         &kp W        &kp E        &kp R         &kp T               &kp Y        &kp U         &kp I             &kp O        &kp P
+  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G               &kp H        &hmr LSHFT J  &hmr LGUI K       &hmr LALT L  &hmr LCTRL SEMI
+  &kp Z         &kp X        &kp C        &kp V         &kp B               &kp N        &kp M         &kp COMMA         &kp DOT      &kp FSLH
                              &mo 2        &kp SPACE     &kp LEFT_COMMAND    &smart_shft  &mo 1         &kp LEFT_CONTROL
             >;
         };

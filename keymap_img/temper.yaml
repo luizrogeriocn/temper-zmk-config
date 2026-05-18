@@ -31,12 +31,12 @@ layers:
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
-  - - fun_layer
+  - - ⎋
     - ⎵
-    - ⌘
     - {t: ⇧, s: ⇪}
+    - ⏎
     - num_nav_layer
-    - ⌃
+    - {t: ⌫, s: ⌦}
   num_nav_layer:
   - - PG UP
     - HOME
@@ -106,7 +106,7 @@ layers:
     - F3
     - F4
   - - {type: held}
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -170,12 +170,12 @@ layers:
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
-  - - fun_layer
+  - - ⎋
     - ⎵
-    - ⌘
     - {t: ⇧, s: ⇪}
+    - ⏎
     - num_nav_layer
-    - ⌃
+    - {t: ⌫, s: ⌦}
 combos:
 - p: [0, 10]
   k: '~'
@@ -238,14 +238,8 @@ combos:
   k: +
   l: [default_layer, qwerty_layer]
 - p: [20, 21]
-  k: ⎋
-  l: [default_layer, qwerty_layer]
-- p: [21, 22]
   k: ↹
   l: [default_layer, qwerty_layer]
-- p: [26, 27]
-  k: ⏎
-  l: [default_layer, qwerty_layer]
-- p: [28, 27]
-  k: {t: ⌫, s: ⌦}
+- p: [30, 31]
+  k: fun_layer
   l: [default_layer, qwerty_layer]

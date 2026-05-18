@@ -211,21 +211,20 @@ path {
 </g>
 <g transform="translate(188, 228)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<a href="#fun_layer">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">fun_layer</tspan></text>
-</a></g>
+<text x="0" y="0" class="key tap">⎋</text>
+</g>
 <g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⎵</text>
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
-<text x="0" y="0" class="key tap">⌘</text>
+<text x="0" y="0" class="key tap">⇧</text>
+<text x="0" y="-40" class="key shifted">⇪</text>
 </g>
 <g transform="translate(463, 246) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
-<text x="0" y="0" class="key tap">⇧</text>
-<text x="0" y="-40" class="key shifted">⇪</text>
+<text x="0" y="0" class="key tap">⏎</text>
 </g>
 <g transform="translate(533, 235) rotate(-15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -234,7 +233,8 @@ path {
 </a></g>
 <g transform="translate(599, 228)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌃</text>
+<text x="0" y="0" class="key tap">⌫</text>
+<text x="0" y="-24" class="key shifted">⌦</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="16" y="102" width="28" height="26" class="combo"/>
@@ -323,21 +323,13 @@ path {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="45" y="167" width="28" height="26" class="combo"/>
-<text x="59" y="180" class="combo tap">⎋</text>
+<text x="59" y="180" class="combo tap">↹</text>
 </g>
 <g class="combo combopos-21">
-<rect rx="6" ry="6" x="105" y="137" width="28" height="26" class="combo"/>
-<text x="119" y="150" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
-<text x="609" y="151" class="combo tap">⏎</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="655" y="137" width="28" height="26" class="combo"/>
-<text x="669" y="150" class="combo tap">⌫</text>
-<text x="669" y="139" class="combo shifted">⌦</text>
-</g>
+<rect rx="6" ry="6" x="207" y="219" width="28" height="26" class="combo"/>
+<a href="#fun_layer">
+<text x="221" y="232" class="combo tap layer-activator"><tspan style="font-size: 78%">fun_layer</tspan></text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-num_nav_layer">
@@ -639,9 +631,8 @@ path {
 <g transform="translate(188, 228)" class="key held keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
 </g>
-<g transform="translate(254, 236) rotate(15.0)" class="key trans keypos-31">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(254, 236) rotate(15.0)" class="key held keypos-31">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key trans keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key trans"/>
@@ -949,21 +940,20 @@ path {
 </g>
 <g transform="translate(188, 228)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<a href="#fun_layer">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">fun_layer</tspan></text>
-</a></g>
+<text x="0" y="0" class="key tap">⎋</text>
+</g>
 <g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⎵</text>
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
-<text x="0" y="0" class="key tap">⌘</text>
+<text x="0" y="0" class="key tap">⇧</text>
+<text x="0" y="-40" class="key shifted">⇪</text>
 </g>
 <g transform="translate(463, 246) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
-<text x="0" y="0" class="key tap">⇧</text>
-<text x="0" y="-40" class="key shifted">⇪</text>
+<text x="0" y="0" class="key tap">⏎</text>
 </g>
 <g transform="translate(533, 235) rotate(-15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -972,7 +962,8 @@ path {
 </a></g>
 <g transform="translate(599, 228)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌃</text>
+<text x="0" y="0" class="key tap">⌫</text>
+<text x="0" y="-24" class="key shifted">⌦</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="16" y="102" width="28" height="26" class="combo"/>
@@ -1061,21 +1052,13 @@ path {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="45" y="167" width="28" height="26" class="combo"/>
-<text x="59" y="180" class="combo tap">⎋</text>
+<text x="59" y="180" class="combo tap">↹</text>
 </g>
 <g class="combo combopos-21">
-<rect rx="6" ry="6" x="105" y="137" width="28" height="26" class="combo"/>
-<text x="119" y="150" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
-<text x="609" y="151" class="combo tap">⏎</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="655" y="137" width="28" height="26" class="combo"/>
-<text x="669" y="150" class="combo tap">⌫</text>
-<text x="669" y="139" class="combo shifted">⌦</text>
-</g>
+<rect rx="6" ry="6" x="207" y="219" width="28" height="26" class="combo"/>
+<a href="#fun_layer">
+<text x="221" y="232" class="combo tap layer-activator"><tspan style="font-size: 78%">fun_layer</tspan></text>
+</a></g>
 </g>
 </g>
 </svg>

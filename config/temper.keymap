@@ -289,7 +289,7 @@
         fun_layer {
             display-name = "fun";
             bindings = <
-  &kp PRINTSCREEN  &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &out OUT_USB    &to 2   &kp F9  &kp F10  &kp F11  &kp F12
+  &kp PRINTSCREEN  &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &out OUT_USB    &to 3   &kp F9  &kp F10  &kp F11  &kp F12
   &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &to 0   &kp F5  &kp F6   &kp F7   &kp F8
   &bt BT_CLR       &kp C_PREV    &kp C_PP      &kp C_NEXT    &out OUT_BLE    &to 4   &kp F1  &kp F2   &kp F3   &kp F4
                                  &trans        &trans        &trans          &trans  &trans  &trans

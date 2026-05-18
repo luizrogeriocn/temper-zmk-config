@@ -810,108 +810,6 @@ path {
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">default_la…</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="16" y="102" width="28" height="26" class="combo"/>
-<text x="30" y="115" class="combo tap">~</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="75" y="63" width="28" height="26" class="combo"/>
-<text x="89" y="76" class="combo tap">@</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="134" y="43" width="28" height="26" class="combo"/>
-<text x="148" y="56" class="combo tap">#</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="194" y="65" width="28" height="26" class="combo"/>
-<text x="208" y="78" class="combo tap">$</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="16" y="158" width="28" height="26" class="combo"/>
-<text x="30" y="171" class="combo tap">%</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="75" y="119" width="28" height="26" class="combo"/>
-<text x="89" y="132" class="combo tap">^</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="134" y="99" width="28" height="26" class="combo"/>
-<text x="148" y="112" class="combo tap">&amp;</text>
-<text x="148" y="101" class="combo shifted">|</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="194" y="121" width="28" height="26" class="combo"/>
-<text x="208" y="134" class="combo tap">*</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="253" y="73" width="28" height="26" class="combo"/>
-<text x="267" y="86" class="combo tap">[</text>
-</g>
-<g class="combo combopos-9">
-<rect rx="6" ry="6" x="253" y="129" width="28" height="26" class="combo"/>
-<text x="267" y="142" class="combo tap">(</text>
-</g>
-<g class="combo combopos-10">
-<rect rx="6" ry="6" x="506" y="73" width="28" height="26" class="combo"/>
-<text x="520" y="86" class="combo tap">]</text>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="506" y="129" width="28" height="26" class="combo"/>
-<text x="520" y="142" class="combo tap">)</text>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="744" y="102" width="28" height="26" class="combo"/>
-<text x="758" y="115" class="combo tap">`</text>
-<text x="758" y="104" class="combo shifted">~</text>
-</g>
-<g class="combo combopos-13">
-<rect rx="6" ry="6" x="566" y="121" width="28" height="26" class="combo"/>
-<text x="580" y="134" class="combo tap">&lt;</text>
-</g>
-<g class="combo combopos-14">
-<rect rx="6" ry="6" x="684" y="119" width="28" height="26" class="combo"/>
-<text x="698" y="132" class="combo tap">&gt;</text>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="744" y="158" width="28" height="26" class="combo"/>
-<text x="758" y="171" class="combo tap">/</text>
-<text x="758" y="160" class="combo shifted">\</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="566" y="65" width="28" height="26" class="combo"/>
-<text x="580" y="78" class="combo tap">-</text>
-<text x="580" y="67" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="625" y="43" width="28" height="26" class="combo"/>
-<text x="639" y="56" class="combo tap">_</text>
-</g>
-<g class="combo combopos-18">
-<rect rx="6" ry="6" x="625" y="99" width="28" height="26" class="combo"/>
-<text x="639" y="112" class="combo tap">=</text>
-<text x="639" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-19">
-<rect rx="6" ry="6" x="684" y="63" width="28" height="26" class="combo"/>
-<text x="698" y="76" class="combo tap">+</text>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="45" y="167" width="28" height="26" class="combo"/>
-<text x="59" y="180" class="combo tap">⎋</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="105" y="137" width="28" height="26" class="combo"/>
-<text x="119" y="150" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
-<text x="609" y="151" class="combo tap">⏎</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="655" y="137" width="28" height="26" class="combo"/>
-<text x="669" y="150" class="combo tap">⌫</text>
-<text x="669" y="139" class="combo shifted">⌦</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1417)" class="layer-qwerty_layer">
@@ -1075,6 +973,108 @@ path {
 <g transform="translate(599, 228)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⌃</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="16" y="102" width="28" height="26" class="combo"/>
+<text x="30" y="115" class="combo tap">~</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="75" y="63" width="28" height="26" class="combo"/>
+<text x="89" y="76" class="combo tap">@</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="134" y="43" width="28" height="26" class="combo"/>
+<text x="148" y="56" class="combo tap">#</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="194" y="65" width="28" height="26" class="combo"/>
+<text x="208" y="78" class="combo tap">$</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="16" y="158" width="28" height="26" class="combo"/>
+<text x="30" y="171" class="combo tap">%</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="75" y="119" width="28" height="26" class="combo"/>
+<text x="89" y="132" class="combo tap">^</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="134" y="99" width="28" height="26" class="combo"/>
+<text x="148" y="112" class="combo tap">&amp;</text>
+<text x="148" y="101" class="combo shifted">|</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="194" y="121" width="28" height="26" class="combo"/>
+<text x="208" y="134" class="combo tap">*</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="253" y="73" width="28" height="26" class="combo"/>
+<text x="267" y="86" class="combo tap">[</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="253" y="129" width="28" height="26" class="combo"/>
+<text x="267" y="142" class="combo tap">(</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="506" y="73" width="28" height="26" class="combo"/>
+<text x="520" y="86" class="combo tap">]</text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="506" y="129" width="28" height="26" class="combo"/>
+<text x="520" y="142" class="combo tap">)</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="744" y="102" width="28" height="26" class="combo"/>
+<text x="758" y="115" class="combo tap">`</text>
+<text x="758" y="104" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="566" y="121" width="28" height="26" class="combo"/>
+<text x="580" y="134" class="combo tap">&lt;</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="684" y="119" width="28" height="26" class="combo"/>
+<text x="698" y="132" class="combo tap">&gt;</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="744" y="158" width="28" height="26" class="combo"/>
+<text x="758" y="171" class="combo tap">/</text>
+<text x="758" y="160" class="combo shifted">\</text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="566" y="65" width="28" height="26" class="combo"/>
+<text x="580" y="78" class="combo tap">-</text>
+<text x="580" y="67" class="combo shifted">_</text>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="625" y="43" width="28" height="26" class="combo"/>
+<text x="639" y="56" class="combo tap">_</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="625" y="99" width="28" height="26" class="combo"/>
+<text x="639" y="112" class="combo tap">=</text>
+<text x="639" y="101" class="combo shifted">+</text>
+</g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="684" y="63" width="28" height="26" class="combo"/>
+<text x="698" y="76" class="combo tap">+</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="45" y="167" width="28" height="26" class="combo"/>
+<text x="59" y="180" class="combo tap">⎋</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="105" y="137" width="28" height="26" class="combo"/>
+<text x="119" y="150" class="combo tap">↹</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="595" y="138" width="28" height="26" class="combo"/>
+<text x="609" y="151" class="combo tap">⏎</text>
+</g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="655" y="137" width="28" height="26" class="combo"/>
+<text x="669" y="150" class="combo tap">⌫</text>
+<text x="669" y="139" class="combo shifted">⌦</text>
 </g>
 </g>
 </g>

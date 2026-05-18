@@ -13,21 +13,13 @@
 #define NUM_NAV 1
 #define FUN 2
 #define GAME 3
-
 #define COMBO_TERM 30
 #define TAPPING_TERM 280
 #define QUICK_TAP_TERM 175
 #define REQUIRE_PRIOR_IDLE 175
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri_layer {
-            if-layers = <NUM_NAV FUN>;
-            then-layer = <GAME>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     behaviors {
         hml: home_row_mod_left {
@@ -38,6 +30,7 @@
             quick-tap-ms = <QUICK_TAP_TERM>;
             require-prior-idle-ms = <REQUIRE_PRIOR_IDLE>;
             bindings = <&kp>, <&kp>;
+
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 33 34 35>;
             hold-trigger-on-release;
         };
@@ -50,6 +43,7 @@
             quick-tap-ms = <QUICK_TAP_TERM>;
             require-prior-idle-ms = <REQUIRE_PRIOR_IDLE>;
             bindings = <&kp>, <&kp>;
+
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
             hold-trigger-on-release;
         };
@@ -273,25 +267,25 @@
 
         default_layer {
             bindings = <
-  &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J        &kp L  &kp U             &kp Y       &kp APOS
-  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHFT T  &kp G        &kp M        &hmr LSHFT N  &hmr LGUI E  &hmr LALT I  &hmr LCTRL O
-  &kp Z  &kp X  &kp C     &kp D  &kp V        &kp K        &kp H  &comma_semi       &dot_colon  &qmrk_excl
-                &kp LGUI  &mo 2  &kp SPACE    &smart_shft  &mo 1  &kp LEFT_CONTROL
+  &kp Q         &kp W        &kp F        &kp P         &kp B               &kp J        &kp L         &kp U             &kp Y        &kp APOS
+  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHFT T  &kp G               &kp M        &hmr LSHFT N  &hmr LGUI E       &hmr LALT I  &hmr LCTRL O
+  &kp Z         &kp X        &kp C        &kp D         &kp V               &kp K        &kp H         &comma_semi       &dot_colon   &qmrk_excl
+                             &mo 2        &kp SPACE     &kp LEFT_COMMAND    &smart_shft  &mo 1         &kp LEFT_CONTROL
             >;
         };
 
         num_nav_layer {
             bindings = <
-  &kp PG_UP         &kp HOME      &kp UP_ARROW      &kp END         &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
-  &kp PG_DN         &kp LEFT      &kp DOWN_ARROW    &kp RIGHT       &trans    &trans  &kp N4  &kp N5  &kp N6  &kp N0
-  &trans            &trans        &trans            &trans          &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
-                                  &trans            &trans          &trans    &trans  &trans  &trans
+  &kp PG_UP  &kp HOME  &kp UP_ARROW    &kp END    &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
+  &kp PG_DN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &kp N4  &kp N5  &kp N6  &kp N0
+  &trans     &trans    &trans          &trans     &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
+                       &trans          &trans     &trans    &trans  &trans  &trans
             >;
         };
 
         fun_layer {
             bindings = <
-  &kp PRINTSCREEN  &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &out OUT_USB    &trans  &kp F9  &kp F10  &kp F11  &kp F12
+  &kp PRINTSCREEN  &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &out OUT_USB    &to 3   &kp F9  &kp F10  &kp F11  &kp F12
   &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp F5  &kp F6   &kp F7   &kp F8
   &bt BT_CLR       &kp C_PREV    &kp C_PP      &kp C_NEXT    &out OUT_BLE    &trans  &kp F1  &kp F2   &kp F3   &kp F4
                                  &trans        &trans        &trans          &trans  &trans  &trans

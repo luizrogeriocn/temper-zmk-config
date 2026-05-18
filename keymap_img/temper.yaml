@@ -80,7 +80,7 @@ layers:
     - VOL DN
     - VOL UP
     - OUT USB
-    - {t: fun_layer, h: toggle}
+    - {t: game_layer, h: toggle}
     - F9
     - F10
     - F11

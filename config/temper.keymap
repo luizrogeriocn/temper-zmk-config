@@ -244,12 +244,17 @@
             layers = <0 4>;
         };
 
-        fun_layer_thumb {
-            bindings = <&mo 2>;
-            key-positions = <30 31>;
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <27 26>;
             layers = <0 4>;
         };
 
+        backspace {
+            bindings = <&bspc_del>;
+            key-positions = <28 27>;
+            layers = <0 4>;
+        };
     };
 
     keymap {
@@ -258,10 +263,10 @@
         default_layer {
             display-name = "default";
             bindings = <
-  &kp Q         &kp W        &kp F        &kp P         &kp B               &kp J        &kp L         &kp U             &kp Y        &kp APOS
-  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHFT T  &kp G               &kp M        &hmr LSHFT N  &hmr LGUI E       &hmr LALT I  &hmr LCTRL O
-  &kp Z         &kp X        &kp C        &kp D         &kp V               &kp K        &kp H         &comma_semi       &dot_colon   &qmrk_excl
-                             &kp ESCAPE   &kp SPACE     &smart_shft         &kp ENTER    &mo 1         &bspc_del
+  &kp Q         &kp W        &kp F        &kp P         &kp B               &kp J        &kp L         &kp U        &kp Y        &kp APOS
+  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHFT T  &kp G               &kp M        &hmr LSHFT N  &hmr LGUI E  &hmr LALT I  &hmr LCTRL O
+  &kp Z         &kp X        &kp C        &kp D         &kp V               &kp K        &kp H         &comma_semi  &dot_colon   &qmrk_excl
+                             &kp ESCAPE   &kp SPACE     &kp LEFT_COMMAND    &smart_shft  &mo 1         &mo 2
             >;
         };
 
@@ -298,10 +303,10 @@
         qwerty_layer {
             display-name = "qwerty";
             bindings = <
-  &kp Q         &kp W        &kp E        &kp R         &kp T               &kp Y        &kp U         &kp I             &kp O        &kp P
-  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G               &kp H        &hmr LSHFT J  &hmr LGUI K       &hmr LALT L  &hmr LCTRL SINGLE_QUOTE
-  &kp Z         &kp X        &kp C        &kp V         &kp B               &kp N        &kp M         &comma_semi       &dot_colon   &qmrk_excl
-                             &kp ESCAPE   &kp SPACE     &smart_shft         &kp ENTER    &mo 1         &bspc_del
+  &kp Q         &kp W        &kp E        &kp R         &kp T    &kp Y        &kp U         &kp I        &kp O        &kp P
+  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G    &kp H        &hmr LSHFT J  &hmr LGUI K  &hmr LALT L  &hmr LCTRL SINGLE_QUOTE
+  &kp Z         &kp X        &kp C        &kp V         &kp B    &kp N        &kp M         &comma_semi  &dot_colon   &qmrk_excl
+                             &kp ESCAPE   &kp SPACE     &to 0    &smart_shft  &mo 1         &mo 2
             >;
         };
     };

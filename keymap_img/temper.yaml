@@ -33,10 +33,10 @@ layers:
     - {t: '?', s: '!'}
   - - ⎋
     - ⎵
+    - ⌘
     - {t: ⇧, s: ⇪}
-    - ⏎
     - num_nav_layer
-    - {t: ⌫, s: ⌦}
+    - fun_layer
   num_nav_layer:
   - - PG UP
     - HOME
@@ -105,12 +105,12 @@ layers:
     - F2
     - F3
     - F4
-  - - {type: held}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
   game_layer:
   - - ↹
     - Q
@@ -172,10 +172,10 @@ layers:
     - {t: '?', s: '!'}
   - - ⎋
     - ⎵
+    - {t: default_layer, h: toggle}
     - {t: ⇧, s: ⇪}
-    - ⏎
     - num_nav_layer
-    - {t: ⌫, s: ⌦}
+    - fun_layer
 combos:
 - p: [0, 10]
   k: '~'
@@ -240,6 +240,9 @@ combos:
 - p: [20, 21]
   k: ↹
   l: [default_layer, qwerty_layer]
-- p: [30, 31]
-  k: fun_layer
+- p: [27, 26]
+  k: ⏎
+  l: [default_layer, qwerty_layer]
+- p: [28, 27]
+  k: {t: ⌫, s: ⌦}
   l: [default_layer, qwerty_layer]

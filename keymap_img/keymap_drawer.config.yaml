@@ -322,8 +322,14 @@ parse_config:
     'LG(V)': '⌘V'
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
-#   zmk_combos:
-#     combo_tog_nav_word: {'a': 'bottom', 'o': -0.25}
-#     combo_tog_num_word: {'a': 'bottom', 'o': 0.0}
-#     combo_return: {'a': 'bottom', 'o': 0.3}
-#     combo_capsword: {'k': "Caps\nWord"}
+  zmk_combos:
+    percent: {'a': 'bottom', 'o': 0.15}
+    caret: {'a': 'bottom', 'o': 0.15}
+    ampersand: {'a': 'bottom', 'o': 0.15}
+    asterisk: {'a': 'bottom', 'o': 0.15}
+    Lparen: {'a': 'bottom', 'o': 0.15}
+    Rparen: {'a': 'bottom', 'o': 0.15}
+    grave: {'a': 'bottom', 'o': 0.15}
+    less_than: {'a': 'bottom', 'o': 0.15}
+    greater_than: {'a': 'bottom', 'o': 0.15}
+    tab: {'a': 'bottom', 'o': 0.15}

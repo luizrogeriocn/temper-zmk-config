@@ -48,16 +48,16 @@ layers:
     - '8'
     - '9'
     - {t: ▽, type: trans}
-  - - PG DN
-    - ←
-    - ↓
-    - →
+  - - {t: PG DN, h: ⌃}
+    - {t: ←, h: ⎇}
+    - {t: ↓, h: ⌘}
+    - {t: →, h: ⇧}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '4'
-    - '5'
-    - '6'
-    - '0'
+    - {t: '4', h: ⇧}
+    - {t: '5', h: ⌘}
+    - {t: '6', h: ⎇}
+    - {t: '0', h: ⌃}
   - - ⎋
     - ↹
     - ⏎
@@ -192,36 +192,54 @@ combos:
 - p: [10, 20]
   k: '%'
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [11, 21]
   k: ^
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [22, 12]
   k: {t: '&', s: '|'}
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [13, 23]
   k: '*'
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [14, 4]
   k: '['
   l: [default_layer, qwerty_layer]
 - p: [24, 14]
   k: (
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [15, 5]
   k: ']'
   l: [default_layer, qwerty_layer]
 - p: [25, 15]
   k: )
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [19, 29]
   k: {t: '`', s: '~'}
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [26, 16]
   k: <
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [28, 18]
   k: '>'
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [8, 18]
   k: {t: /, s: \}
   l: [default_layer, qwerty_layer]
@@ -240,6 +258,8 @@ combos:
 - p: [21, 22]
   k: ↹
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.15
 - p: [27, 26]
   k: ⏎
   l: [default_layer, qwerty_layer]

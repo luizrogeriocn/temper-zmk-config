@@ -193,22 +193,22 @@ combos:
   k: '%'
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [11, 21]
   k: ^
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [22, 12]
   k: {t: '&', s: '|'}
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [13, 23]
   k: '*'
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [14, 4]
   k: '['
   l: [default_layer, qwerty_layer]
@@ -216,7 +216,7 @@ combos:
   k: (
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [15, 5]
   k: ']'
   l: [default_layer, qwerty_layer]
@@ -224,22 +224,22 @@ combos:
   k: )
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [19, 29]
   k: {t: '`', s: '~'}
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [26, 16]
   k: <
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [28, 18]
   k: '>'
   l: [default_layer, qwerty_layer]
   a: bottom
-  o: 0.15
+  o: 0.02
 - p: [8, 18]
   k: {t: /, s: \}
   l: [default_layer, qwerty_layer]
@@ -252,14 +252,14 @@ combos:
 - p: [27, 17]
   k: {t: '=', s: +}
   l: [default_layer, qwerty_layer]
+  a: bottom
+  o: 0.02
 - p: [9, 19]
   k: +
   l: [default_layer, qwerty_layer]
 - p: [21, 22]
   k: ↹
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: 0.15
 - p: [27, 26]
   k: ⏎
   l: [default_layer, qwerty_layer]

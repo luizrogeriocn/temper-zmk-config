@@ -192,23 +192,15 @@ combos:
 - p: [10, 20]
   k: '%'
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [11, 21]
   k: ^
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [22, 12]
   k: {t: '&', s: '|'}
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [13, 23]
   k: '*'
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [14, 4]
   k: '['
   l: [default_layer, qwerty_layer]
@@ -224,18 +216,12 @@ combos:
 - p: [19, 29]
   k: {t: '`', s: '~'}
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [26, 16]
   k: <
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [28, 18]
   k: '>'
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [8, 18]
   k: {t: /, s: \}
   l: [default_layer, qwerty_layer]
@@ -248,8 +234,6 @@ combos:
 - p: [27, 17]
   k: {t: '=', s: +}
   l: [default_layer, qwerty_layer]
-  a: bottom
-  o: -0.14
 - p: [9, 19]
   k: +
   l: [default_layer, qwerty_layer]

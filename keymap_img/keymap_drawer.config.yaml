@@ -323,13 +323,11 @@ parse_config:
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
   zmk_combos:
-    percent: {'a': 'bottom', 'o': 0.02}
-    caret: {'a': 'bottom', 'o': 0.02}
-    ampersand: {'a': 'bottom', 'o': 0.02}
-    asterisk: {'a': 'bottom', 'o': 0.02}
-    Lparen: {'a': 'bottom', 'o': 0.02}
-    Rparen: {'a': 'bottom', 'o': 0.02}
-    grave: {'a': 'bottom', 'o': 0.02}
-    equal: {'a': 'bottom', 'o': 0.02}
-    less_than: {'a': 'bottom', 'o': 0.02}
-    greater_than: {'a': 'bottom', 'o': 0.02}
+    percent: {'a': 'bottom', 'o': -0.08}
+    caret: {'a': 'bottom', 'o': -0.08}
+    ampersand: {'a': 'bottom', 'o': -0.08}
+    asterisk: {'a': 'bottom', 'o': -0.08}
+    grave: {'a': 'bottom', 'o': -0.08}
+    equal: {'a': 'bottom', 'o': -0.08}
+    less_than: {'a': 'bottom', 'o': -0.08}
+    greater_than: {'a': 'bottom', 'o': -0.08}

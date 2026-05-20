@@ -322,12 +322,3 @@ parse_config:
     'LG(V)': '⌘V'
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
-  zmk_combos:
-    percent: {'a': 'bottom', 'o': -0.14}
-    caret: {'a': 'bottom', 'o': -0.14}
-    ampersand: {'a': 'bottom', 'o': -0.14}
-    asterisk: {'a': 'bottom', 'o': -0.14}
-    grave: {'a': 'bottom', 'o': -0.14}
-    equal: {'a': 'bottom', 'o': -0.14}
-    less_than: {'a': 'bottom', 'o': -0.14}
-    greater_than: {'a': 'bottom', 'o': -0.14}

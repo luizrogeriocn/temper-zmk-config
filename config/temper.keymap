@@ -192,7 +192,7 @@
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <19 9>;
+            key-positions = <19 29>;
             layers = <0 4>;
         };
 
@@ -210,7 +210,7 @@
 
         slash_morph {
             bindings = <&slh_morph>;
-            key-positions = <29 19>;
+            key-positions = <8 18>;
             layers = <0 4>;
         };
 
@@ -234,13 +234,13 @@
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <18 8>;
+            key-positions = <9 19>;
             layers = <0 4>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
             layers = <0 4>;
         };
 
@@ -273,10 +273,10 @@
         num_nav_layer {
             display-name = "num/nav";
             bindings = <
-  &kp PG_UP  &kp HOME  &kp UP_ARROW    &kp END    &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
-  &kp PG_DN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &kp N4  &kp N5  &kp N6  &kp N0
-  &trans     &trans    &trans          &trans     &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
-                       &trans          &trans     &trans    &trans  &trans  &trans
+  &kp PG_UP   &kp HOME  &kp UP_ARROW    &kp END    &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
+  &kp PG_DN   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &kp N4  &kp N5  &kp N6  &kp N0
+  &kp ESCAPE  &kp TAB   &kp ENTER       &bspc_del  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
+                        &trans          &trans     &trans    &trans  &trans  &trans
             >;
         };
 

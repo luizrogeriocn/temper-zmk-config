@@ -34,7 +34,7 @@ layers:
   - - ⎋
     - ⎵
     - ⌘
-    - {t: ⇧, s: ⇪}
+    - {t: ⇧, s: ⇪, h: ⇪⇪}
     - num_nav_layer
     - fun_layer
   num_nav_layer:

@@ -34,7 +34,7 @@ layers:
   - - ⎋
     - ⎵
     - ⌘
-    - {t: ⇧, s: ⇪, h: ⇪⇪}
+    - {t: ⇧, h: ⇪⇪, s: ⇪}
     - num_nav_layer
     - fun_layer
   num_nav_layer:
@@ -95,20 +95,11 @@ layers:
     - F6
     - F7
     - F8
-  - - BT CLR
-    - ⏮
-    - ⏯
-    - ⏭
-    - OUT BLE
-    - {t: qwerty_layer, h: toggle}
-    - F1
-    - F2
-    - F3
-    - F4
+  - [BT CLR, ⏮, ⏯, ⏭, OUT BLE, '', F1, F2, F3, F4]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&bootloader'
+    - '&bootloader'
     - {t: ▽, type: trans}
     - {type: held}
   game_layer:
@@ -142,107 +133,79 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - ESC
-    - {t: ▽, type: trans}
-    - ⎵
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: default_layer, h: toggle}
-  qwerty_layer:
-  - [Q, W, E, R, T, Y, U, I, O, P]
-  - - {t: A, h: ⌃}
-    - {t: S, h: ⎇}
-    - {t: D, h: ⌘}
-    - {t: F, h: ⇧}
-    - G
-    - H
-    - {t: J, h: ⇧}
-    - {t: K, h: ⌘}
-    - {t: L, h: ⎇}
-    - {t: '''', h: ⌃, s: '"'}
-  - - Z
-    - X
-    - C
-    - V
-    - B
-    - N
-    - M
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
-    - {t: '?', s: '!'}
   - - ⎋
+    - {t: ▽, type: trans}
     - ⎵
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: default_layer, h: toggle}
-    - {t: ⇧, s: ⇪}
-    - num_nav_layer
-    - fun_layer
 combos:
 - p: [0, 10]
   k: '~'
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [11, 1]
   k: '@'
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [12, 2]
   k: '#'
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [13, 3]
   k: $
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [10, 20]
   k: '%'
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [11, 21]
   k: ^
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [22, 12]
   k: {t: '&', s: '|'}
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [13, 23]
   k: '*'
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [14, 4]
   k: '['
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [24, 14]
   k: (
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [15, 5]
   k: ']'
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [25, 15]
   k: )
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [19, 29]
   k: {t: '`', s: '~'}
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [26, 16]
   k: <
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [28, 18]
   k: '>'
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [8, 18]
   k: {t: /, s: \}
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [16, 6]
   k: {t: '-', s: _}
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [17, 7]
   k: _
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [27, 17]
   k: {t: '=', s: +}
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [9, 19]
   k: +
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [21, 22]
   k: ↹
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [27, 26]
   k: ⏎
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]
 - p: [28, 27]
   k: {t: ⌫, s: ⌦}
-  l: [default_layer, qwerty_layer]
+  l: [default_layer]

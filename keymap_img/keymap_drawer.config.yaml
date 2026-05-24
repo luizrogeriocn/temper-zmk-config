@@ -4,6 +4,8 @@ draw_config:
   arc_scale: 1.0
   combo_h: 26.0
   combo_w: 28.0
+  dark_mode: true
+  draw_key_sides: false
   inner_pad_h: 2.0
   inner_pad_w: 2.0
   key_h: 56.0
@@ -22,29 +24,35 @@ draw_config:
         font-size: 14px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
-        fill: #24292e;
+        fill: #e6edf3;
+        background: #0d1117;
     }
 
     /* default key styling */
     rect {
-        fill: #f6f8fa;
-        stroke: #c9cccf;
+        fill: #161b22;
+        stroke: #30363d;
         stroke-width: 1;
+    }
+
+    /* default key side styling, only used if draw_key_sides is set */
+    rect.side {
+        fill: #0f141b;
     }
 
     /* color accent for combo boxes */
     rect.combo {
-        fill: #cdf;
+        fill: #16324f;
     }
 
     /* color accent for held keys */
     rect.held, rect.combo.held {
-        fill: #fdd;
+        fill: #4a1d24;
     }
 
     /* color accent for ghost (optional) keys */
     rect.ghost, rect.combo.ghost {
-        fill: #ddd;
+        fill: #21262d;
     }
 
     text {
@@ -56,7 +64,7 @@ draw_config:
     text.label {
         font-weight: bold;
         text-anchor: start;
-        stroke: white;
+        stroke: #0d1117;
         stroke-width: 2;
         paint-order: stroke;
     }
@@ -71,7 +79,7 @@ draw_config:
         dominant-baseline: text-after-edge;
         font-size: 12px;
         font-weight: 600;
-        fill: #57606a;
+        fill: #9da7b3;
     }
 
     text.shifted {
@@ -85,9 +93,9 @@ draw_config:
     }
 
     /* styling for combo dendrons */
-    path {
+    path:not(.glyph-icon) {
         stroke-width: 1;
-        stroke: gray;
+        stroke: #8b949e;
         fill: none;
     }
 parse_config:
@@ -190,7 +198,8 @@ parse_config:
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
-    '&td_bt_clear': 'BT CLR'
+    '&td_bt_clear': '$$mdi:bluetooth-off$$'
+    '&bootloader': 'boot'
     '&m_type_md_code_block': '```'
     '&kt LSHFT': "⇧\nLock"
     '&lt_num_word 4 0': {t: "Num\nWord", h: 'Num'}
@@ -294,17 +303,31 @@ parse_config:
     RIGHT: →
     UP: ↑
     DOWN: ↓
+    "PG UP": "$$mdi:pan-up$$"
+    "PG DN": "$$mdi:pan-down$$"
+    HOME: "$$mdi:pan-left$$"
+    END: "$$mdi:pan-right$$"
+    PRINTSCREEN: "$$mdi:monitor-screenshot$$"
     TAB: ↹
     RETURN: '⏎'
     ESCAPE: '⎋'
     C_REWIND: '⏮'
     C_FAST_FORWARD: '⏭'
     C_PAUSE: '⏯'
-    C_MUTE: "VOL\nMUTE"
-    C_VOLUME_DOWN: "VOL\nDOWN"
-    C_VOLUME_UP: "VOL\nUP"
+    K_MUTE: "$$mdi:volume-off$$"
+    C_VOL_DN: "$$mdi:volume-minus$$"
+    C_VOL_UP: "$$mdi:volume-plus$$"
+    C_MUTE: "$$mdi:volume-off$$"
+    C_VOLUME_DOWN: "$$mdi:volume-minus$$"
+    C_VOLUME_UP: "$$mdi:volume-plus$$"
     C_BRIGHTNESS_DEC: '☀↓'
     C_BRIGHTNESS_INC: '☀↑'
+    OUT_USB: "$$mdi:usb-port$$"
+    OUT_BLE: "$$mdi:bluetooth$$"
+    "OUT USB": "$$mdi:usb-port$$"
+    "OUT BLE": "$$mdi:bluetooth$$"
+    OUTUSB: "$$mdi:usb-port$$"
+    OUTBLE: "$$mdi:bluetooth$$"
     LA(LEFT): ↞
     LA(RIGHT): ↠
     LG(LEFT): ⇤

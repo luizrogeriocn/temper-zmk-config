@@ -38,17 +38,17 @@ layers:
     - num_nav_layer
     - fun_layer
   num_nav_layer:
-  - - PG UP
-    - HOME
+  - - $$mdi:pan-up$$
+    - $$mdi:pan-left$$
     - ↑
-    - END
+    - $$mdi:pan-right$$
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '7'
     - '8'
     - '9'
     - {t: ▽, type: trans}
-  - - PG DN
+  - - $$mdi:pan-down$$
     - ←
     - ↓
     - →
@@ -75,11 +75,11 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
   fun_layer:
-  - - PRINTSCREEN
-    - MUTE
-    - VOL DN
-    - VOL UP
-    - OUT USB
+  - - $$mdi:monitor-screenshot$$
+    - $$mdi:volume-off$$
+    - $$mdi:volume-minus$$
+    - $$mdi:volume-plus$$
+    - $$mdi:usb-port$$
     - {t: game_layer, h: toggle}
     - F9
     - F10
@@ -95,11 +95,11 @@ layers:
     - F6
     - F7
     - F8
-  - [BT CLR, ⏮, ⏯, ⏭, OUT BLE, '', F1, F2, F3, F4]
+  - [$$mdi:bluetooth-off$$, ⏮, ⏯, ⏭, $$mdi:bluetooth$$, '', F1, F2, F3, F4]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '&bootloader'
-    - '&bootloader'
+    - boot
+    - boot
     - {t: ▽, type: trans}
     - {type: held}
   game_layer:

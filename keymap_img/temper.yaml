@@ -34,7 +34,7 @@ layers:
   - - ⎋
     - ⎵
     - ⌘
-    - {t: ⇧, h: ⇪⇪, s: ⇪}
+    - {t: ⇧, h: ⇪⇪}
     - num_nav_layer
     - fun_layer
   num_nav_layer:
@@ -133,7 +133,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - ⎋
+  - - ESC
     - {t: ▽, type: trans}
     - ⎵
     - {t: ▽, type: trans}

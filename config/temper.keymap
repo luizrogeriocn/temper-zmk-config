@@ -66,27 +66,11 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        smart_shft: smart_shift {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT>, <&caps_word>;
-
-            mods = <(MOD_LSFT)>;
-        };
-
-        mt_smart_shft: mod_tap_smart_shift {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&smart_shft>;
-        };
-
-        td_smart_caps: tap_dance_smart_caps {
+        td_shift_caps: tap_dance_shift_caps {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt_smart_shft LSHFT 0>, <&kp CAPSLOCK>;
+            bindings = <&kp LSHFT>, <&kp CAPSLOCK>;
         };
 
         comma_semi: comma_semi {
@@ -281,7 +265,7 @@
   &kp Q         &kp W        &kp F        &kp P         &kp B               &kp J        &kp L         &kp U        &kp Y        &kp APOS
   &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHFT T  &kp G               &kp M        &hmr LSHFT N  &hmr LGUI E  &hmr LALT I  &hmr LCTRL O
   &kp Z         &kp X        &kp C        &kp D         &kp V               &kp K        &kp H         &comma_semi  &dot_colon   &qmrk_excl
-                             &kp ESCAPE   &kp SPACE     &kp LEFT_COMMAND    &td_smart_caps  &mo 1         &mo 2
+                             &kp ESCAPE   &kp SPACE     &kp LEFT_COMMAND    &td_shift_caps  &mo 1         &mo 2
             >;
         };
 
